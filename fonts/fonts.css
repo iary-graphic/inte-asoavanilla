@@ -14,7 +14,7 @@
 @font-face {
     font-family: 'icon';
     src:  url('icon.eot');
-    src:  url('icon.eot#iefix') format('embedded-opentype'),
+    src:  url('icon.eot?#iefix') format('embedded-opentype'),
       url('icon.ttf') format('truetype'),
       url('icon.woff') format('woff'),
       url('icon.svg#icon') format('svg');
@@ -69,4 +69,6 @@
   .icon-youtube:before {
     content: "\e90a";
   }
-  
+  .icon-map-location:before {
+    content: "\e90b";
+  }
